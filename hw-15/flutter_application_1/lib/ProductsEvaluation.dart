@@ -5,13 +5,14 @@ class ProductsEvaluation extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Row(
+    const colorStars = Color.fromARGB(255, 255, 191, 1);
+    return const Row(
       children: [
-        Icon(Icons.star, color: Color.fromARGB(255, 255, 191, 1)),
-        Icon(Icons.star, color: Color.fromARGB(255, 255, 191, 1)),
-        Icon(Icons.star, color: Color.fromARGB(255, 255, 191, 1)),
-        Icon(Icons.star, color: Color.fromARGB(255, 255, 191, 1)),
-        Icon(Icons.star, color: Color.fromARGB(255, 255, 191, 1)),
+        Icon(Icons.star, color: colorStars),
+        Icon(Icons.star, color: colorStars),
+        Icon(Icons.star, color: colorStars),
+        Icon(Icons.star, color: colorStars),
+        Icon(Icons.star, color: colorStars),
       ],
     );
   }

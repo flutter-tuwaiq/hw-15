@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'BottomButton.dart';
 import 'IconeApp.dart';
 import 'ImageSlide.dart';
-import 'ProductDetails.dart';
+import 'Product_Details/ProductDetails.dart';
 import 'ProductName.dart';
 import 'ProductsEvaluation.dart';
 import 'QuantityAndPrice.dart';
